@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D069E00B15FFF566006EC80B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D069E00A15FFF566006EC80B /* UIKit.framework */; };
+		D069E00D15FFF566006EC80B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D069E00C15FFF566006EC80B /* Foundation.framework */; };
+		D069E00F15FFF566006EC80B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D069E00E15FFF566006EC80B /* CoreGraphics.framework */; };
+		D069E01515FFF566006EC80B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D069E01315FFF566006EC80B /* InfoPlist.strings */; };
+		D069E01715FFF566006EC80B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D069E01615FFF566006EC80B /* main.m */; };
+		D069E01B15FFF566006EC80B /* org_fbb_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D069E01A15FFF566006EC80B /* org_fbb_AppDelegate.m */; };
+		D069E01E15FFF566006EC80B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D069E01C15FFF566006EC80B /* MainStoryboard.storyboard */; };
+		D069E02115FFF566006EC80B /* org_fbb_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D069E02015FFF566006EC80B /* org_fbb_ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D069E00615FFF566006EC80B /* iDishOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDishOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D069E00A15FFF566006EC80B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D069E00C15FFF566006EC80B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D069E00E15FFF566006EC80B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D069E01215FFF566006EC80B /* iDishOrder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDishOrder-Info.plist"; sourceTree = "<group>"; };
+		D069E01415FFF566006EC80B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D069E01615FFF566006EC80B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D069E01815FFF566006EC80B /* iDishOrder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDishOrder-Prefix.pch"; sourceTree = "<group>"; };
+		D069E01915FFF566006EC80B /* org_fbb_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = org_fbb_AppDelegate.h; sourceTree = "<group>"; };
+		D069E01A15FFF566006EC80B /* org_fbb_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = org_fbb_AppDelegate.m; sourceTree = "<group>"; };
+		D069E01D15FFF566006EC80B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D069E01F15FFF566006EC80B /* org_fbb_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = org_fbb_ViewController.h; sourceTree = "<group>"; };
+		D069E02015FFF566006EC80B /* org_fbb_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = org_fbb_ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D069E00315FFF566006EC80B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D069E00B15FFF566006EC80B /* UIKit.framework in Frameworks */,
+				D069E00D15FFF566006EC80B /* Foundation.framework in Frameworks */,
+				D069E00F15FFF566006EC80B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D069DFFB15FFF565006EC80B = {
+			isa = PBXGroup;
+			children = (
+				D069E01015FFF566006EC80B /* iDishOrder */,
+				D069E00915FFF566006EC80B /* Frameworks */,
+				D069E00715FFF566006EC80B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D069E00715FFF566006EC80B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D069E00615FFF566006EC80B /* iDishOrder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D069E00915FFF566006EC80B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D069E00A15FFF566006EC80B /* UIKit.framework */,
+				D069E00C15FFF566006EC80B /* Foundation.framework */,
+				D069E00E15FFF566006EC80B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D069E01015FFF566006EC80B /* iDishOrder */ = {
+			isa = PBXGroup;
+			children = (
+				D069E01915FFF566006EC80B /* org_fbb_AppDelegate.h */,
+				D069E01A15FFF566006EC80B /* org_fbb_AppDelegate.m */,
+				D069E01C15FFF566006EC80B /* MainStoryboard.storyboard */,
+				D069E01F15FFF566006EC80B /* org_fbb_ViewController.h */,
+				D069E02015FFF566006EC80B /* org_fbb_ViewController.m */,
+				D069E01115FFF566006EC80B /* Supporting Files */,
+			);
+			path = iDishOrder;
+			sourceTree = "<group>";
+		};
+		D069E01115FFF566006EC80B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D069E01215FFF566006EC80B /* iDishOrder-Info.plist */,
+				D069E01315FFF566006EC80B /* InfoPlist.strings */,
+				D069E01615FFF566006EC80B /* main.m */,
+				D069E01815FFF566006EC80B /* iDishOrder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D069E00515FFF566006EC80B /* iDishOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D069E02415FFF566006EC80B /* Build configuration list for PBXNativeTarget "iDishOrder" */;
+			buildPhases = (
+				D069E00215FFF566006EC80B /* Sources */,
+				D069E00315FFF566006EC80B /* Frameworks */,
+				D069E00415FFF566006EC80B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDishOrder;
+			productName = iDishOrder;
+			productReference = D069E00615FFF566006EC80B /* iDishOrder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D069DFFD15FFF565006EC80B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = org.fbb.;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Chang, Liang";
+			};
+			buildConfigurationList = D069E00015FFF565006EC80B /* Build configuration list for PBXProject "iDishOrder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D069DFFB15FFF565006EC80B;
+			productRefGroup = D069E00715FFF566006EC80B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D069E00515FFF566006EC80B /* iDishOrder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D069E00415FFF566006EC80B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D069E01515FFF566006EC80B /* InfoPlist.strings in Resources */,
+				D069E01E15FFF566006EC80B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D069E00215FFF566006EC80B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D069E01715FFF566006EC80B /* main.m in Sources */,
+				D069E01B15FFF566006EC80B /* org_fbb_AppDelegate.m in Sources */,
+				D069E02115FFF566006EC80B /* org_fbb_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D069E01315FFF566006EC80B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D069E01415FFF566006EC80B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D069E01C15FFF566006EC80B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D069E01D15FFF566006EC80B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D069E02215FFF566006EC80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D069E02315FFF566006EC80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D069E02515FFF566006EC80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDishOrder/iDishOrder-Prefix.pch";
+				INFOPLIST_FILE = "iDishOrder/iDishOrder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D069E02615FFF566006EC80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDishOrder/iDishOrder-Prefix.pch";
+				INFOPLIST_FILE = "iDishOrder/iDishOrder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D069E00015FFF565006EC80B /* Build configuration list for PBXProject "iDishOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D069E02215FFF566006EC80B /* Debug */,
+				D069E02315FFF566006EC80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D069E02415FFF566006EC80B /* Build configuration list for PBXNativeTarget "iDishOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D069E02515FFF566006EC80B /* Debug */,
+				D069E02615FFF566006EC80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D069DFFD15FFF565006EC80B /* Project object */;
+}
