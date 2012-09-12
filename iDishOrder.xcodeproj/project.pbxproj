@@ -16,6 +16,7 @@
 		D069E01B15FFF566006EC80B /* org_fbb_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D069E01A15FFF566006EC80B /* org_fbb_AppDelegate.m */; };
 		D069E01E15FFF566006EC80B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D069E01C15FFF566006EC80B /* MainStoryboard.storyboard */; };
 		D069E02115FFF566006EC80B /* org_fbb_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D069E02015FFF566006EC80B /* org_fbb_ViewController.m */; };
+		D0F800D41600D132008D1584 /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F800D11600D132008D1584 /* MenuCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		D069E01D15FFF566006EC80B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D069E01F15FFF566006EC80B /* org_fbb_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = org_fbb_ViewController.h; sourceTree = "<group>"; };
 		D069E02015FFF566006EC80B /* org_fbb_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = org_fbb_ViewController.m; sourceTree = "<group>"; };
+		D0F800D01600D132008D1584 /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
+		D0F800D11600D132008D1584 /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				D069E01915FFF566006EC80B /* org_fbb_AppDelegate.h */,
 				D069E01A15FFF566006EC80B /* org_fbb_AppDelegate.m */,
 				D069E01C15FFF566006EC80B /* MainStoryboard.storyboard */,
+				D0F800D01600D132008D1584 /* MenuCell.h */,
+				D0F800D11600D132008D1584 /* MenuCell.m */,
 				D069E01F15FFF566006EC80B /* org_fbb_ViewController.h */,
 				D069E02015FFF566006EC80B /* org_fbb_ViewController.m */,
 				D069E01115FFF566006EC80B /* Supporting Files */,
@@ -179,6 +184,7 @@
 				D069E01B15FFF566006EC80B /* org_fbb_AppDelegate.m in Sources */,
 				D069E02115FFF566006EC80B /* org_fbb_ViewController.m in Sources */,
 				D0305E3A160022860017AE5C /* Dish.m in Sources */,
+				D0F800D41600D132008D1584 /* MenuCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,4 +18,6 @@
 
 @property (strong, nonatomic) NSString *picFile;
 
+-(id) init: (NSInteger) Identity withName: (NSString*) Name withDescription: (NSString*) Description withPicFile: (NSString*) PicFile;
+
 @end

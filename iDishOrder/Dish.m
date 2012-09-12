@@ -18,11 +18,11 @@
 
 @synthesize picFile= _picFile;
 
-- (id) init{
-    self.identity = 0;
-    self.name = @"";
-    self.description = @"";
-    self.picFile = @"";
+-(id) init: (NSInteger) Identity withName: (NSString*) Name withDescription: (NSString*) Description withPicFile: (NSString*) PicFile{
+    self.identity = Identity;
+    self.name = Name;
+    self.description = Description;
+    self.picFile = PicFile;
     
     return self;
 }

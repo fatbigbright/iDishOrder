@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface org_fbb_ViewController : UIViewController
+@interface org_fbb_ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+
+@property (strong, nonatomic) NSMutableArray *menuEntities;
 
 @end
