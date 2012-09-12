@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0305E3A160022860017AE5C /* Dish.m in Sources */ = {isa = PBXBuildFile; fileRef = D0305E39160022860017AE5C /* Dish.m */; };
 		D069E00B15FFF566006EC80B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D069E00A15FFF566006EC80B /* UIKit.framework */; };
 		D069E00D15FFF566006EC80B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D069E00C15FFF566006EC80B /* Foundation.framework */; };
 		D069E00F15FFF566006EC80B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D069E00E15FFF566006EC80B /* CoreGraphics.framework */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0305E38160022860017AE5C /* Dish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dish.h; sourceTree = "<group>"; };
+		D0305E39160022860017AE5C /* Dish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dish.m; sourceTree = "<group>"; };
 		D069E00615FFF566006EC80B /* iDishOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDishOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D069E00A15FFF566006EC80B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D069E00C15FFF566006EC80B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0305E36160022340017AE5C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D0305E38160022860017AE5C /* Dish.h */,
+				D0305E39160022860017AE5C /* Dish.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
 		D069DFFB15FFF565006EC80B = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +89,7 @@
 		D069E01015FFF566006EC80B /* iDishOrder */ = {
 			isa = PBXGroup;
 			children = (
+				D0305E36160022340017AE5C /* Entities */,
 				D069E01915FFF566006EC80B /* org_fbb_AppDelegate.h */,
 				D069E01A15FFF566006EC80B /* org_fbb_AppDelegate.m */,
 				D069E01C15FFF566006EC80B /* MainStoryboard.storyboard */,
@@ -165,6 +178,7 @@
 				D069E01715FFF566006EC80B /* main.m in Sources */,
 				D069E01B15FFF566006EC80B /* org_fbb_AppDelegate.m in Sources */,
 				D069E02115FFF566006EC80B /* org_fbb_ViewController.m in Sources */,
+				D0305E3A160022860017AE5C /* Dish.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +298,7 @@
 				D069E02615FFF566006EC80B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
